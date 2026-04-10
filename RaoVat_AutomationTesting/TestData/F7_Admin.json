@@ -1,0 +1,8 @@
+{
+  "AdminAccount": {
+    "Email": "admin123@gmail.com",
+    "Pass": "123456"
+  },
+  "SearchKeyword": "Vinfast",
+  "HideReason": "spam"
+}

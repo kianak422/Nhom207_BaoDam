@@ -1,0 +1,247 @@
+[
+  {
+    "Id": "KS01",
+    "Keyword": "laptop",
+    "Expected": "success",
+    "Msg": ""
+  },
+  {
+    "Id": "KS02",
+    "Keyword": "phone",
+    "Expected": "success",
+    "Msg": ""
+  },
+  {
+    "Id": "KS03",
+    "Keyword": "macbook",
+    "Expected": "success",
+    "Msg": ""
+  },
+  {
+    "Id": "KS04",
+    "Keyword": "LAPTOP",
+    "Expected": "success",
+    "Msg": ""
+  },
+  {
+    "Id": "KS05",
+    "Keyword": " laptop ",
+    "Expected": "success",
+    "Msg": ""
+  },
+  {
+    "Id": "KS06",
+    "Keyword": "laptop@",
+    "Expected": "success",
+    "Msg": ""
+  },
+  {
+    "Id": "KS07",
+    "Keyword": "gaming laptop asus",
+    "Expected": "success",
+    "Msg": ""
+  },
+  {
+    "Id": "ES01",
+    "Keywords": ["", ""],
+    "Expected": "success",
+    "Msg": "Click search with empty input twice"
+  },
+  {
+    "Id": "ES02",
+    "Keyword": "xyz123",
+    "Expected": "success",
+    "Msg": "Search with random alphanumeric"
+  },
+  {
+    "Id": "ES03",
+    "Keyword": "",
+    "Expected": "success",
+    "Msg": "Search empty"
+  },
+  {
+    "Id": "ES04",
+    "Keyword": "@@@@",
+    "Expected": "success",
+    "Msg": "Search special characters"
+  },
+  {
+    "Id": "ES05",
+    "Keywords": ["@@@@", "999999"],
+    "Expected": "success",
+    "Msg": "Search numbers after special characters"
+  },
+  {
+    "Id": "ES06",
+    "Keywords": ["aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "abcdef"],
+    "Expected": "success",
+    "Msg": "Search letters after long string"
+  },
+  {
+    "Id": "ES07",
+    "Keyword": "abcdef",
+    "Expected": "success",
+    "Msg": "Search letters"
+  },
+  {
+    "Id": "ES08",
+    "Keyword": "abcdef",
+    "Expected": "success",
+    "Msg": "Search letters"
+  },
+  {
+    "Id": "KS08",
+    "Keywords": ["laptop", "tablet"],
+    "Expected": "success",
+    "Msg": "Search tablet after laptop"
+  },
+  {
+    "Id": "KS09",
+    "Keyword": "phone",
+    "Expected": "success",
+    "Msg": "Search phone"
+  },
+  {
+    "Id": "KS10",
+    "Keyword": "laptop",
+    "Expected": "success",
+    "Msg": "Search laptop"
+  },
+  {
+    "Id": "FA01",
+    "StartUrl": "http://localhost:5173",
+    "Category": "Đồ điện tử",
+    "Expected": "success",
+    "Msg": "Filter by category image click"
+  },
+  {
+    "Id": "FA02",
+    "Province": "Thành phố Hà Nội",
+    "ClearModal": true,
+    "Expected": "success",
+    "Msg": "Filter by province Hanoi (with modal clear)"
+  },
+  {
+    "Id": "FA03",
+    "Province": "Thành phố Hồ Chí Minh",
+    "District": "Quận 12",
+    "Expected": "success",
+    "Msg": "Filter by province HCM and District 12"
+  },
+  {
+    "Id": "FA04",
+    "Province": "Thành phố Hà Nội",
+    "District": "Quận Cầu Giấy",
+    "Expected": "success",
+    "Msg": "Filter by province and district (even if no results)"
+  },
+  {
+    "Id": "FA05",
+    "MinPrice": "100000",
+    "MaxPrice": "500000",
+    "Expected": "success",
+    "Msg": "Filter by price range (even if no results)"
+  },
+  {
+    "Id": "FA06",
+    "MinPrice": "200000",
+    "MaxPrice": "200000",
+    "Expected": "success",
+    "Msg": "Filter by exact price"
+  },
+  {
+    "Id": "FA07",
+    "MinPrice": "0",
+    "MaxPrice": "0",
+    "Expected": "success",
+    "Msg": "Filter by zero price"
+  },
+  {
+    "Id": "FA08",
+    "MinPrice": "500000",
+    "MaxPrice": "100000",
+    "Expected": "success",
+    "Msg": "Min price > Max price"
+  },
+  {
+    "Id": "FA09",
+    "MinPrice": "-100000",
+    "Expected": "success",
+    "Msg": "Negative price"
+  },
+  {
+    "Id": "FA10",
+    "HomeBtnIndex": 1,
+    "Expected": "success",
+    "Msg": "Click home category button 1"
+  },
+  {
+    "Id": "FA11",
+    "HomeBtnIndex": 2,
+    "Expected": "success",
+    "Msg": "Click home category button 2"
+  },
+  {
+    "Id": "FA12",
+    "StartUrl": "http://localhost:5173/tim-kiem?category=do-dien-tu",
+    "Subcategory": "Điện thoại",
+    "Province": "Thành phố Đà Nẵng",
+    "Expected": "success",
+    "Msg": "StartUrl category + Subcategory + Location"
+  },
+  {
+    "Id": "FA13",
+    "StartUrl": "http://localhost:5173/tim-kiem?category=xe-co",
+    "Subcategory": "Xe máy",
+    "MaxPrice": "10000000",
+    "Expected": "success",
+    "Msg": "StartUrl category + Subcategory + MaxPrice"
+  },
+  {
+    "Id": "FA14",
+    "Category": "Đồ điện tử",
+    "Province": "Thành phố Hồ Chí Minh",
+    "MaxPrice": "5000000",
+    "Expected": "success",
+    "Msg": "Category + Location + MaxPrice"
+  },
+  {
+    "Id": "FA15",
+    "MinPrice": "20000",
+    "MaxPrice": "100000000",
+    "Province": "Thành phố Hồ Chí Minh",
+    "District": "Quận Gò Vấp",
+    "Expected": "success",
+    "Msg": "Filter by price range and location (even if no results)"
+  },
+  {
+    "Id": "FA16",
+    "Keyword": "iphone",
+    "Category": "Đồ điện tử",
+    "Expected": "success",
+    "Msg": "Keyword + Category"
+  },
+  {
+    "Id": "FA17",
+    "MinPrice": "20000",
+    "MaxPrice": "1000000",
+    "Reset": true,
+    "Expected": "success",
+    "Msg": "Filter by price range and reset"
+  },
+  {
+    "Id": "FA18",
+    "Keyword": "xe",
+    "Category": "Xe cộ",
+    "Province": "Thành phố Hồ Chí Minh",
+    "Expected": "success",
+    "Msg": "Keyword + Category + Location"
+  },
+  {
+    "Id": "FA19",
+    "MinPrice": "abc",
+    "MaxPrice": "abc",
+    "Expected": "success",
+    "Msg": "Non-numeric price"
+  }
+]

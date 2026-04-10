@@ -1,0 +1,200 @@
+[
+    {
+        "Id": "R01",
+        "Name": "User Test 1",
+        "Phone": "0901234567",
+        "Email": "user1_v2@gmail.com",
+        "Pass": "123456",
+        "ConfirmPass": "123456",
+        "AgreeTerms": true,
+        "Expected": "success",
+        "Msg": "đăng ký thành công"
+    },
+    {
+        "Id": "R02",
+        "Name": "User Test 2",
+        "Phone": "0901234567",
+        "Email": "admin@gmail.com",
+        "Pass": "123456",
+        "ConfirmPass": "123456",
+        "AgreeTerms": true,
+        "Expected": "fail",
+        "Msg": "email này đã được sử dụng"
+    },
+    {
+        "Id": "R03",
+        "Name": "User Test 3",
+        "Phone": "0901234567",
+        "Email": "abcgmail.com",
+        "Pass": "123456",
+        "ConfirmPass": "123456",
+        "AgreeTerms": true,
+        "Expected": "fail",
+        "Msg": "vui lòng bao gồm '@' trong địa chỉ email"
+    },
+    {
+        "Id": "R04",
+        "Name": "User Test 4",
+        "Phone": "0901234567",
+        "Email": "",
+        "Pass": "123456",
+        "ConfirmPass": "123456",
+        "AgreeTerms": true,
+        "Expected": "fail",
+        "Msg": "vui lòng điền vào trường này"
+    },
+    {
+        "Id": "R05",
+        "Name": "User Test 5",
+        "Phone": "0901234567",
+        "Email": "user2@gmail.com",
+        "Pass": "",
+        "ConfirmPass": "123456",
+        "AgreeTerms": true,
+        "Expected": "fail",
+        "Msg": "vui lòng điền vào trường này"
+    },
+    {
+        "Id": "R06",
+        "Name": "User Test 6",
+        "Phone": "0901234567",
+        "Email": "user3@gmail.com",
+        "Pass": "123456",
+        "ConfirmPass": "123123",
+        "AgreeTerms": true,
+        "Expected": "fail",
+        "Msg": "mật khẩu và xác nhận mật khẩu không khớp!"
+    },
+    {
+        "Id": "R07",
+        "Name": "User Test 7",
+        "Phone": "0901234567",
+        "Email": "user_short@gmail.com",
+        "Pass": "123",
+        "ConfirmPass": "123",
+        "AgreeTerms": true,
+        "Expected": "fail",
+        "Msg": "hãy kéo dài văn bản này thành 6 ký tự trở lên"
+    },
+    {
+        "Id": "R08",
+        "Name": "User Test 8",
+        "Phone": "0901234567",
+        "Email": "user4@gmail.com",
+        "Pass": "abcdef",
+        "ConfirmPass": "abcdef",
+        "AgreeTerms": true,
+        "Expected": "fail",
+        "Msg": "weak-password"
+    },
+    {
+        "Id": "R09",
+        "Name": "User Test 9",
+        "Phone": "0901234567",
+        "Email": "user 1@gmail.com",
+        "Pass": "123456",
+        "ConfirmPass": "123456",
+        "AgreeTerms": true,
+        "Expected": "fail",
+        "Msg": "phần đứng trước '@' không được chứa biểu tượng"
+    },
+    {
+        "Id": "R10",
+        "Name": "User Test 10",
+        "Phone": "0901234567",
+        "Email": "USER_v2@gmail.com",
+        "Pass": "123456",
+        "ConfirmPass": "123456",
+        "AgreeTerms": true,
+        "Expected": "success",
+        "Msg": "đăng ký thành công"
+    },
+    {
+        "Id": "R11",
+        "Name": "User Test 11",
+        "Phone": "0901234567",
+        "Email": "user5_v2@gmail.com",
+        "Pass": "Abc@123",
+        "ConfirmPass": "Abc@123",
+        "AgreeTerms": true,
+        "Expected": "success",
+        "Msg": "đăng ký thành công"
+    },
+    {
+        "Id": "R12",
+        "Name": "User Test 12",
+        "Phone": "0901234567",
+        "Email": "user6@gmail.com",
+        "Pass": "123456",
+        "ConfirmPass": "",
+        "AgreeTerms": true,
+        "Expected": "fail",
+        "Msg": "vui lòng điền vào trường này"
+    },
+    {
+        "Id": "R13",
+        "Name": "User Test 13",
+        "Phone": "0901234567",
+        "Email": "user7@gmail.com",
+        "Pass": "123456",
+        "ConfirmPass": "654321",
+        "AgreeTerms": true,
+        "Expected": "fail",
+        "Msg": "mật khẩu và xác nhận mật khẩu không khớp!"
+    },
+    {
+        "Id": "R14",
+        "Name": "User Test 14",
+        "Phone": "0901234567",
+        "Email": "user!@gmail.com",
+        "Pass": "123456",
+        "ConfirmPass": "123456",
+        "AgreeTerms": true,
+        "Expected": "fail",
+        "Msg": "một phần theo sau '@' không được chứa ký hiệu"
+    },
+    {
+        "Id": "R15",
+        "Name": "",
+        "Phone": "",
+        "Email": "",
+        "Pass": "",
+        "ConfirmPass": "",
+        "AgreeTerms": false,
+        "Expected": "fail",
+        "Msg": "vui lòng điền vào trường này"
+    },
+    {
+        "Id": "R16",
+        "Name": "User Test 16",
+        "Phone": "0901234567",
+        "Email": "verylongemailaddress_v2@gmail.com",
+        "Pass": "123456",
+        "ConfirmPass": "123456",
+        "AgreeTerms": true,
+        "Expected": "success",
+        "Msg": "đăng ký thành công"
+    },
+    {
+        "Id": "R17",
+        "Name": "User Test 17",
+        "Phone": "123",
+        "Email": "bademail@gmail.com",
+        "Pass": "123456",
+        "ConfirmPass": "123456",
+        "AgreeTerms": true,
+        "Expected": "fail",
+        "Msg": "số điện thoại phải có đúng 10 chữ số."
+    },
+    {
+        "Id": "R18",
+        "Name": "User Test 18",
+        "Phone": "0901234567",
+        "Email": "user8_v2@gmail.com",
+        "Pass": "123456",
+        "ConfirmPass": "123456",
+        "AgreeTerms": true,
+        "Expected": "success",
+        "Msg": "đăng ký thành công"
+    }
+]

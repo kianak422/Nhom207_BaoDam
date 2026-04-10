@@ -1,0 +1,191 @@
+[
+    {
+        "Id": "C01",
+        "Type": "Chat",
+        "Scenario": "Gửi tin nhắn rỗng",
+        "TestData": "",
+        "Expected": "Nút Gửi bị mờ (disabled) hoặc không thể click"
+    },
+    {
+        "Id": "C02",
+        "Type": "Chat",
+        "Scenario": "Gửi tin nhắn khoảng trắng",
+        "TestData": "   ",
+        "Expected": "Hệ thống tự động trim() và chặn tin nhắn rỗng"
+    },
+    {
+        "Id": "C03",
+        "Type": "Chat",
+        "Scenario": "Gửi tin nhắn 1 ký tự",
+        "TestData": "A",
+        "Expected": "Gửi thành công, tin nhắn hiển thị trên khung chat"
+    },
+    {
+        "Id": "C04",
+        "Type": "Chat",
+        "Scenario": "Gửi tin nhắn hợp lệ",
+        "TestData": "Sản phẩm còn ko bạn?",
+        "Expected": "Gửi thành công, tin nhắn hiển thị trên khung chat"
+    },
+    {
+        "Id": "C05",
+        "Type": "Chat",
+        "Scenario": "Độ dài tối đa",
+        "TestData": "Chuỗi_1000_ky_tu",
+        "Expected": "Gửi thành công"
+    },
+    {
+        "Id": "C06",
+        "Type": "Chat",
+        "Scenario": "Vượt độ dài tối đa",
+        "TestData": "Chuỗi_1001_ky_tu",
+        "Expected": "Hệ thống chặn hoặc tự động cắt bớt ký tự thừa"
+    },
+    {
+        "Id": "C07",
+        "Type": "Chat",
+        "Scenario": "Tin nhắn chứa emoji",
+        "TestData": "😱💸👍",
+        "Expected": "Gửi thành công, hiển thị chính xác biểu tượng"
+    },
+    {
+        "Id": "C08",
+        "Type": "Chat",
+        "Scenario": "Tin nhắn chứa URL",
+        "TestData": "https://google.com",
+        "Expected": "Gửi thành công, URL hiển thị dạng link có thể click"
+    },
+    {
+        "Id": "C09",
+        "Type": "Chat",
+        "Scenario": "Security: XSS Injection",
+        "TestData": "<script>alert('XSS')</script>",
+        "Expected": "Hiển thị dạng text thuần túy, không chạy script"
+    },
+    {
+        "Id": "C10",
+        "Type": "Chat",
+        "Scenario": "Bắt đầu chat từ trang sản phẩm",
+        "TestData": "Click",
+        "Expected": "Điều hướng mở khung chat thành công"
+    },
+    {
+        "Id": "C11",
+        "Type": "Chat",
+        "Scenario": "Chat có lịch sử",
+        "TestData": "Click_User",
+        "Expected": "Tải đầy đủ các tin nhắn cũ trong quá khứ"
+    },
+    {
+        "Id": "C12",
+        "Type": "Chat",
+        "Scenario": "Chat với chính mình",
+        "TestData": "View_UI",
+        "Expected": "Không hiển thị nút Chat trên sản phẩm của chính mình"
+    },
+    {
+        "Id": "C13",
+        "Type": "Chat",
+        "Scenario": "Guest chat",
+        "TestData": "Click",
+        "Expected": "Bật popup yêu cầu đăng nhập (Redirect to Login)"
+    },
+    {
+        "Id": "C14",
+        "Type": "Chat",
+        "Scenario": "Realtime chat",
+        "TestData": "Alo",
+        "Expected": "Người nhận thấy tin nhắn ngay lập tức không cần F5"
+    },
+    {
+        "Id": "C15",
+        "Type": "Chat",
+        "Scenario": "Chat offline",
+        "TestData": "Mai ship nhé",
+        "Expected": "Gửi thành công, hệ thống lưu trữ cho người nhận"
+    },
+    {
+        "Id": "C16",
+        "Type": "Chat",
+        "Scenario": "Read receipt",
+        "TestData": "View",
+        "Expected": "Hiển thị trạng thái 'Đã xem' (Read)"
+    },
+    {
+        "Id": "C17",
+        "Type": "Chat",
+        "Scenario": "Load lịch sử chat",
+        "TestData": "Scroll_Up",
+        "Expected": "Tự động load thêm tin nhắn cũ khi cuộn lên trên"
+    },
+    {
+        "Id": "C18",
+        "Type": "Chat",
+        "Scenario": "Thông báo chat header",
+        "TestData": "Receive",
+        "Expected": "Icon Chat hiện chấm đỏ hoặc số lượng chưa đọc"
+    },
+    {
+        "Id": "C19",
+        "Type": "Chat",
+        "Scenario": "Chat user bị ban",
+        "TestData": "View_UI",
+        "Expected": "Ô nhập tin nhắn bị khóa, báo lỗi User đã bị chặn"
+    },
+    {
+        "Id": "C21",
+        "Type": "Chat",
+        "Scenario": "Auto retry",
+        "TestData": "Online",
+        "Expected": "Tin nhắn lỗi tự động được gửi đi thành công"
+    },
+    {
+        "Id": "C22",
+        "Type": "Chat",
+        "Scenario": "Hiển thị thời gian",
+        "TestData": "View_UI",
+        "Expected": "Hiển thị mốc thời gian chính xác (VD: 10:30 AM)"
+    },
+    {
+        "Id": "C23",
+        "Type": "Chat",
+        "Scenario": "Sort danh sách chat",
+        "TestData": "Receive",
+        "Expected": "Hội thoại có tin nhắn mới nhất được đẩy lên đầu"
+    },
+    {
+        "Id": "C24",
+        "Type": "Chat",
+        "Scenario": "Gửi ảnh",
+        "TestData": "image.jpg",    "Expected": "Tải lên và gửi hình ảnh thành công"
+    },
+    {
+        "Id": "C25",
+        "Type": "Chat",
+        "Scenario": "Ảnh sai định dạng",
+        "TestData": "virus.exe",
+        "Expected": "Báo lỗi định dạng file không được hỗ trợ"
+    },
+    {
+        "Id": "C26",
+        "Type": "Chat",
+        "Scenario": "Xóa cuộc trò chuyện",
+        "TestData": "Delete",
+        "Expected": "Cuộc trò chuyện biến mất khỏi danh sách"
+    },
+    {
+        "Id": "C27",
+        "Type": "Chat",
+        "Scenario": "Block user",
+        "TestData": "Block",
+        "Expected": "Chặn thành công, khóa khung chat hai bên"
+    },
+    {
+        "Id": "C28",
+        "Type": "Chat",
+        "Scenario": "Unblock user",
+        "TestData": "Unblock",
+        "Expected": "Bỏ chặn thành công, có thể nhắn tin lại"
+    },
+]
+    

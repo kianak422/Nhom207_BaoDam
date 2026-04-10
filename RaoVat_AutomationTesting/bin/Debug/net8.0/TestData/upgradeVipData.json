@@ -1,0 +1,26 @@
+{
+  "NormalAccount": {
+    "Email": "user_thuong@gmail.com",
+    "Pass": "123456"
+  },
+  "VipAccount": {
+    "Email": "user_davip@gmail.com",
+    "Pass": "123456"
+  },
+  "NewAccount": {
+    "Email": "user_moi_tao_trang_tinh@gmail.com",
+    "Pass": "123456"
+  },
+  "BasicPackageId": "vip_1m",
+  "DiscountPackageId": "vip_3m",
+  "ValidCard": {
+    "Number": "4242 4242 4242 4242",
+    "Expiry": "12/28",
+    "Cvv": "123"
+  },
+  "InvalidCard": {
+    "Number": "ABC-XYZ-123",
+    "Expiry": "NAM/NAY",
+    "Cvv": "LOG"
+  }
+}

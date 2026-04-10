@@ -1,0 +1,51 @@
+[
+    {
+        "Id": "TC_INT_01.1",
+        "Scenario": "Luồng Đăng tin: Đăng nhập -> Tạo bài viết -> Kiểm tra trong Quản lý tin",
+        "UserEmail": "nvk.970@gmail.com",
+        "UserPass": "123456",
+        "PostTitle": "Laptop Dell Automation INT01",
+        "Category": "Đồ điện tử",
+        "ExpectedStatus": "pending_review"
+    },
+    {
+        "Id": "TC_INT_01.2",
+        "Scenario": "Luồng Tìm kiếm: Tìm từ khóa -> Click kết quả đầu tiên -> Xem chi tiết tin",
+        "SearchKeyword": "Laptop",
+        "ExpectedUrlContains": "/san-pham/",
+        "ExpectedStatus": "success"
+    },
+    {
+        "Id": "TC_INT_04.1",
+        "Scenario": "Luồng Yêu thích: Tìm tin -> Xem chi tiết -> Bấm Lưu tin -> Kiểm tra trong tab Tin Đã Lưu",
+        "UserEmail": "nvk.970@gmail.com",
+        "UserPass": "123456",
+        "SearchKeyword": "Điện thoại",
+        "ExpectedStatus": "success"
+    },
+    {
+        "Id": "TC_INT_05.1",
+        "Scenario": "Luồng Kiểm duyệt (User & Admin): User đăng tin -> Admin đăng nhập -> Duyệt tin -> Tin lên trang chủ",
+        "UserEmail": "nvk.970@gmail.com",
+        "UserPass": "123456",
+        "AdminEmail": "Macter@gmail.com",
+        "PostTitle": "Test Duyệt Bài INT04",
+        "ExpectedStatus": "active"
+    },
+    {
+        "Id": "TC_INT_03.1",
+        "Scenario": "Luồng Trừng phạt: Admin khóa User -> User đó đăng nhập bị từ chối",
+        "AdminEmail": "Macter.970@gmail.com",
+        "UserEmail": "nvk@gmail.com",
+        "UserPass": "123456",
+        "ExpectedStatus": "banned"
+    },
+    {
+        "Id": "TC_INT_06.1",
+        "Scenario": "Luồng Ẩn tin: User Ẩn bài viết -> Tìm kiếm ngoài trang chủ không còn thấy nữa",
+        "UserEmail": "nvk.970@gmail.com",
+        "UserPass": "123456",
+        "SearchKeyword": "Bài viết chuẩn bị ẩn",
+        "ExpectedStatus": "hidden_success"
+    }
+]

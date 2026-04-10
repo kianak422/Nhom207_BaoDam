@@ -1,0 +1,121 @@
+[
+{
+    "Id": "CM01",
+    "Type": "Comment",
+    "Scenario": "Comment rỗng",
+    "TestData": "",
+    "Expected": "Nút gửi bị mờ hoặc báo lỗi không để trống"
+},
+    {
+        "Id": "CM02",
+        "Type": "Comment",
+        "Scenario": "Comment space",
+        "TestData": "   ",
+        "Expected": "Hệ thống tự động trim() và chặn bình luận rỗng"
+    },
+    {
+        "Id": "CM03",
+        "Type": "Comment",
+        "Scenario": "Comment hợp lệ",
+        "TestData": "Sản phẩm này fix giá không?",
+        "Expected": "Bình luận hiển thị thành công dưới bài viết"
+    },
+    {
+        "Id": "CM04",
+        "Type": "Comment",
+        "Scenario": "Comment quá dài",
+        "TestData": "Chuỗi_501_ky_tu",
+        "Expected": "Chặn hoặc báo lỗi vượt quá số lượng ký tự"
+    },
+    {
+        "Id": "CM05",
+        "Type": "Comment",
+        "Scenario": "Security: XSS comment",
+        "TestData": "<iframe src='javascript:alert(1)'>",
+        "Expected": "Bình luận hiển thị dạng text thuần, không chạy mã độc"
+    },
+    {
+        "Id": "CM06",
+        "Type": "Comment",
+        "Scenario": "Guest comment",
+        "TestData": "Click",
+        "Expected": "Bật popup yêu cầu đăng nhập"
+    },
+    {
+        "Id": "CM11",
+        "Type": "Comment",
+        "Scenario": "Comment realtime",
+        "TestData": "Comment",
+        "Expected": "Người xem khác thấy bình luận hiện lên realtime"
+    },
+    {
+        "Id": "CM12",
+        "Type": "Comment",
+        "Scenario": "Load comment",
+        "TestData": "Scroll_Down",
+        "Expected": "Tải các comment cũ thành công"
+    },
+    {
+        "Id": "CM13",
+        "Type": "Comment",
+        "Scenario": "Xem thêm comment",
+        "TestData": "Click",
+        "Expected": "Phân trang / Tải thêm trang comment tiếp theo"
+    },
+    {
+        "Id": "CM14",
+        "Type": "Comment",
+        "Scenario": "Comment bài bị xóa",
+        "TestData": "Comment",
+        "Expected": "Báo lỗi bài viết không còn tồn tại"
+    },
+    {
+        "Id": "CM15",
+        "Type": "Comment",
+        "Scenario": "Comment user bị ban",
+        "TestData": "View_UI",
+        "Expected": "Bình luận cũ vẫn hiển thị nhưng kèm nhãn đã bị khóa"
+    },
+    {
+        "Id": "CM16",
+        "Type": "Comment",
+        "Scenario": "Hiển thị thời gian",
+        "TestData": "View_UI",
+        "Expected": "Hiển thị đúng dạng thời gian (VD: 2 phút trước)"
+    },
+    {
+        "Id": "CM18",
+        "Type": "Comment",
+        "Scenario": "Spam link",
+        "TestData": "https://shopee.vn/...",
+        "Expected": "Bình luận thành công hoặc bị cảnh báo spam"
+    },
+    {
+        "Id": "CM19",
+        "Type": "Comment",
+        "Scenario": "Mất mạng khi comment",
+        "TestData": "Offline",
+        "Expected": "Báo lỗi mạng, bình luận không được gửi"
+    },
+    {
+        "Id": "CM20",
+        "Type": "Comment",
+        "Scenario": "Update số comment",
+        "TestData": "Submit",
+        "Expected": "Tổng số đếm bình luận trên bài viết tăng lên 1"
+    },
+    {
+        "Id": "CM21",
+        "Type": "Comment",
+        "Scenario": "Spam comment",
+        "TestData": "Spam_10_lần",
+        "Expected": "Hệ thống chặn spam, báo lỗi rate limit"
+    },
+{
+    "Id": "CM22",
+    "Type": "Comment",
+    "Scenario": "Notification comment",
+    "TestData": "Notify",
+    "Expected": "Chủ bài viết nhận được thông báo có người bình luận"
+}
+]
