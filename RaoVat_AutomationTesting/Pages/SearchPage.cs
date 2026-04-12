@@ -344,12 +344,47 @@ namespace RaoVat_AutomationTesting.Pages
 
         public void ClickHomeButton(int index = 1)
         {
-            By locator = index == 1 
-                ? By.XPath("//div[@id='root']/div/main/div/div[2]/div/button")
-                : By.XPath($"//div[@id='root']/div/main/div/div[2]/div/button[{index}]");
-            
-            var btn = wait.Until(ExpectedConditions.ElementToBeClickable(locator));
-            btn.Click();
+            // Tránh XPath tuyệt đối (layout React đổi là chết).
+            // Mục tiêu: tìm các button "category" trên trang chủ theo thứ tự hiển thị trong <main>.
+            int i = Math.Max(1, index);
+
+            // Ưu tiên các button có text (thường là nút danh mục).
+            By buttonsWithText = By.XPath("//main//button[normalize-space(.)!='' and not(@disabled)]");
+            By anyButtonsInMain = By.XPath("//main//button[not(@disabled)]");
+
+            IReadOnlyCollection<IWebElement> candidates = Array.Empty<IWebElement>();
+
+            try
+            {
+                wait.Until(d => d.FindElements(buttonsWithText).Count >= i || d.FindElements(anyButtonsInMain).Count >= i);
+            }
+            catch
+            {
+                // ignore -> xử lý bên dưới
+            }
+
+            var withText = driver.FindElements(buttonsWithText).Where(e => e.Displayed).ToList();
+            if (withText.Count >= i)
+            {
+                candidates = withText;
+            }
+            else
+            {
+                var any = driver.FindElements(anyButtonsInMain).Where(e => e.Displayed).ToList();
+                candidates = any;
+            }
+
+            if (candidates.Count < i)
+                throw new NoSuchElementException($"Không tìm thấy đủ button trong trang chủ để click index={i}. Found={candidates.Count}");
+
+            var btn = candidates.ElementAt(i - 1);
+            try
+            {
+                ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].scrollIntoView({behavior:'auto', block:'center'});", btn);
+            }
+            catch { }
+
+            try { btn.Click(); } catch { JsClick(btn); }
         }
 
         public void ResetFilter()

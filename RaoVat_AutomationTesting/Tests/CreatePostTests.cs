@@ -21,7 +21,7 @@ namespace RaoVat_AutomationTesting.Tests
         private string sheetName = "TCs - F3";
         private string testerName = "Danh";
 
-        [SetUp]
+        [OneTimeSetUp] // ĐÃ ĐỔI THÀNH ONETIMESETUP
         public void Setup()
         {
             Console.WriteLine("=========================================");
@@ -66,18 +66,16 @@ namespace RaoVat_AutomationTesting.Tests
         // =================================================================
         public static IEnumerable<TestCaseData> GetIndividualTestCases()
         {
-            // Lấy toàn bộ dữ liệu từ file JSON của bạn
             var allData = JsonReader.GetCreatePostTestData();
-
             foreach (var data in allData)
             {
-                // Ép kiểu NUnit TestCaseData và dán nhãn hiển thị là ID của test case
                 yield return new TestCaseData(data).SetName($"{data.Id}");
             }
         }
-        // =================================================================
 
-        // Đã sửa lại Source trỏ về hàm bọc ở trên thay vì trỏ thẳng vào JsonReader
+        // =================================================================
+        // HÀM THỰC THI TEST CHÍNH
+        // =================================================================
         [Test, TestCaseSource(nameof(GetIndividualTestCases))]
         public void ExecuteCreatePostTest(CreatePostData data)
         {
@@ -92,76 +90,103 @@ namespace RaoVat_AutomationTesting.Tests
             {
                 driver.Navigate().GoToUrl("http://localhost:5173/dang-tin");
 
-                // === CHÈN FIX CHO LỖI RELOAD TRANG CỦA REACT MÀ MÌNH NÓI Ở TRÊN ===
+                // BẮT BUỘC PHẢI F5 LẠI TRANG ĐỂ DỌN RÁC DOM DO CHẠY ONETIMESETUP CHUNG 1 TAB
+                driver.Navigate().Refresh();
+
+                // === CHÈN FIX CHO LỖI RELOAD TRANG CỦA REACT ===
                 System.Threading.Thread.Sleep(4000);
 
-                postPage.FillPostForm(data);
-
-                if (data.Expected == "success")
+                // =========================================================
+                // 1. TÁCH RIÊNG LUỒNG CHẠY CHO CÁC TEST CASE KIỂM TRA UI DROPDOWN
+                // =========================================================
+                if (data.Id == "CP20")
                 {
-                    try
-                    {
-                        // 1. ĐỢI ALERT THÔNG MINH: Tối đa 120 giây
-                        var alertWait = new WebDriverWait(driver, TimeSpan.FromSeconds(120));
-                        IAlert alert = alertWait.Until(ExpectedConditions.AlertIsPresent());
-
-                        actualResultToLog = alert.Text;
-                        alert.Accept();
-                    }
-                    catch (WebDriverTimeoutException) { }
-
-                    try
-                    {
-                        // 2. ĐỢI CHUYỂN TRANG THÔNG MINH: Tối đa 120 giây về Trang chủ
-                        var homePageWait = new WebDriverWait(driver, TimeSpan.FromSeconds(120));
-
-                        // Điều kiện: URL bằng đúng trang chủ HOẶC không còn nằm ở trang "/dang-tin"
-                        homePageWait.Until(d => d.Url == "http://localhost:5173/" || d.Url == "http://localhost:5173" || !d.Url.Contains("/dang-tin"));
-
-                        System.Threading.Thread.Sleep(1000); // Trang load xong thì nghỉ 1 nhịp rồi chụp hình
-                        screenshotPath = TakeScreenshot(driver, $"Pass_{data.Id}", false);
-
-                        statusToLog = "Pass";
-                        if (string.IsNullOrEmpty(actualResultToLog)) actualResultToLog = "Đăng thành công và đã chuyển về Trang chủ";
-
-                        Console.WriteLine($"ID: {data.Id} - Đăng thành công! Thông báo: {actualResultToLog}");
-                    }
-                    catch (WebDriverTimeoutException)
-                    {
-                        string errorMsg = GetErrorMessageRobust(driver);
-                        actualResultToLog = string.IsNullOrEmpty(errorMsg) ? "Đăng thất bại: Quá 120 giây vẫn không chuyển về Trang chủ được." : errorMsg;
-                        statusToLog = "Fail";
-                        Assert.Fail($"Lỗi: {actualResultToLog}");
-                    }
+                    // Gọi hàm kiểm tra Dropdown Phường/Xã và nhận chuỗi kết quả thực tế
+                    actualResultToLog = postPage.ValidateCP20_WardDropdownEnabled(data);
+                    statusToLog = "Pass";
+                    screenshotPath = TakeScreenshot(driver, $"Pass_{data.Id}", false);
+                    Console.WriteLine($"ID: {data.Id} - {actualResultToLog}");
                 }
+                else if (data.Id == "CP22")
+                {
+                    // Gọi hàm kiểm tra Reset Dropdown và nhận chuỗi kết quả thực tế
+                    actualResultToLog = postPage.ValidateCP22_DropdownReset(data);
+                    statusToLog = "Pass";
+                    screenshotPath = TakeScreenshot(driver, $"Pass_{data.Id}", false);
+                    Console.WriteLine($"ID: {data.Id} - {actualResultToLog}");
+                }
+                // =========================================================
+                // 2. LUỒNG CHẠY CHO CÁC TEST CASE NHẬP FORM BÌNH THƯỜNG
+                // =========================================================
                 else
                 {
-                    string actualMsg = "";
-                    try
-                    {
-                        var shortWait = new WebDriverWait(driver, TimeSpan.FromSeconds(2));
-                        IAlert alert = shortWait.Until(ExpectedConditions.AlertIsPresent());
-                        actualMsg = alert.Text;
-                        alert.Accept();
-                    }
-                    catch (WebDriverTimeoutException)
-                    {
-                        actualMsg = GetErrorMessageRobust(driver);
-                    }
+                    postPage.FillPostForm(data);
 
-                    actualResultToLog = string.IsNullOrEmpty(actualMsg) ? "Không hiển thị thông báo lỗi" : actualMsg;
-                    Console.WriteLine($"ID: {data.Id} - Lỗi thực tế: {actualResultToLog}");
-
-                    string expectedMsg = (data.Msg ?? "").ToLower();
-
-                    if (actualResultToLog.ToLower().Contains(expectedMsg))
+                    if (data.Expected == "success")
                     {
-                        statusToLog = "Pass";
+                        try
+                        {
+                            // 1. ĐỢI ALERT THÔNG MINH: Tối đa 120 giây
+                            var alertWait = new WebDriverWait(driver, TimeSpan.FromSeconds(120));
+                            IAlert alert = alertWait.Until(ExpectedConditions.AlertIsPresent());
+
+                            actualResultToLog = alert.Text;
+                            alert.Accept();
+                        }
+                        catch (WebDriverTimeoutException) { }
+
+                        try
+                        {
+                            // 2. ĐỢI CHUYỂN TRANG THÔNG MINH: Tối đa 120 giây về Trang chủ
+                            var homePageWait = new WebDriverWait(driver, TimeSpan.FromSeconds(120));
+
+                            homePageWait.Until(d => d.Url == "http://localhost:5173/" || d.Url == "http://localhost:5173" || !d.Url.Contains("/dang-tin"));
+
+                            System.Threading.Thread.Sleep(1000); // Trang load xong thì nghỉ 1 nhịp rồi chụp hình
+                            screenshotPath = TakeScreenshot(driver, $"Pass_{data.Id}", false);
+
+                            statusToLog = "Pass";
+                            if (string.IsNullOrEmpty(actualResultToLog)) actualResultToLog = "Đăng thành công và đã chuyển về Trang chủ";
+
+                            Console.WriteLine($"ID: {data.Id} - Đăng thành công! Thông báo: {actualResultToLog}");
+                        }
+                        catch (WebDriverTimeoutException)
+                        {
+                            string errorMsg = GetErrorMessageRobust(driver);
+                            actualResultToLog = string.IsNullOrEmpty(errorMsg) ? "Đăng thất bại: Quá 120 giây vẫn không chuyển về Trang chủ được." : errorMsg;
+                            statusToLog = "Fail";
+                            Assert.Fail($"Lỗi: {actualResultToLog}");
+                        }
                     }
                     else
                     {
-                        statusToLog = "Fail";
-                        Assert.Fail($"Sai text lỗi.");
+                        string actualMsg = "";
+                        try
+                        {
+                            var shortWait = new WebDriverWait(driver, TimeSpan.FromSeconds(2));
+                            IAlert alert = shortWait.Until(ExpectedConditions.AlertIsPresent());
+                            actualMsg = alert.Text;
+                            alert.Accept();
+                        }
+                        catch (WebDriverTimeoutException)
+                        {
+                            actualMsg = GetErrorMessageRobust(driver);
+                        }
+
+                        actualResultToLog = string.IsNullOrEmpty(actualMsg) ? "Không hiển thị thông báo lỗi" : actualMsg;
+                        Console.WriteLine($"ID: {data.Id} - Lỗi thực tế: {actualResultToLog}");
+
+                        string expectedMsg = (data.Msg ?? "").ToLower();
+
+                        if (actualResultToLog.ToLower().Contains(expectedMsg))
+                        {
+                            statusToLog = "Pass";
+                        }
+                        else
+                        {
+                            statusToLog = "Fail";
+                            Assert.Fail($"Sai text lỗi. Text mong đợi: '{expectedMsg}' | Text thực tế: '{actualResultToLog}'");
+                        }
                     }
                 }
             }
@@ -176,7 +201,7 @@ namespace RaoVat_AutomationTesting.Tests
                     screenshotPath = TakeScreenshot(driver, $"Fail_{data.Id}", true);
                 }
 
-                if (string.IsNullOrEmpty(actualResultToLog) || (!ex.Message.Contains("Sai text") && !(ex is AssertionException)))
+                if (string.IsNullOrEmpty(actualResultToLog) || (!ex.Message.Contains("Sai text lỗi") && !ex.Message.Contains("Lỗi UI") && !(ex is AssertionException)))
                 {
                     actualResultToLog = $"Lỗi Selenium: {ex.Message.Split('\n')[0]}";
                 }
@@ -201,7 +226,7 @@ namespace RaoVat_AutomationTesting.Tests
             }
         }
 
-        [TearDown]
+        [OneTimeTearDown] // ĐÃ ĐỔI THÀNH ONETIMETERARDOWN
         public void Teardown()
         {
             if (driver != null)

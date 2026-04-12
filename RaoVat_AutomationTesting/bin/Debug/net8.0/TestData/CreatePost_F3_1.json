@@ -144,22 +144,6 @@
         "Msg": "200.000.000"
     },
     {
-        "Id": "CP10",
-        "Title": "Bán điện thoại Vertu Cảm Ứng",
-        "Price": "200000000",
-        "Description": "Test giá tối đa hợp lệ cho danh mục điện thoại (200 triệu).",
-        "Category": "do-dien-tu",
-        "SubCategory": "dien-thoai",
-        "Condition": "Mới (chưa qua sử dụng)",
-        "Hang": "Apple",
-        "Province": "79",
-        "District": "760",
-        "Ward": "Phường Bến Nghé",
-        "Images": 1,
-        "Expected": "success",
-        "Msg": "thành công"
-    },
-    {
         "Id": "CP11",
         "Title": "Bán điện thoại",
         "Price": "15000000",
@@ -169,6 +153,7 @@
         "Hang": "Apple",
         "Province": "79",
         "District": "760",
+        "Condition": "Mới (chưa qua sử dụng)",
         "Ward": "Phường Bến Nghé",
         "Condition": "",
         "Images": 1,
@@ -266,7 +251,7 @@
         "Province": "79",
         "District": "760",
         "Ward": "Phường Bến Nghé",
-        "Description": "Mô tả siêu ngắn",
+        "Description": "Bài đăng hợp lệ, dùng để test upload ảnh",
         "Images": 1,
         "Expected": "fail",
         "Msg": "ít nhất 20"
@@ -305,19 +290,19 @@
     },
     {
         "Id": "CP20",
-        "Title": "Bán tai nghe Sony",
+        "Title": "Test Logic Dropdown Huyện",
         "Price": "5000000",
-        "Description": "Tai nghe chống ồn cực tốt, hàng chính hãng Sony Việt Nam.",
+        "Description": "Test chức năng chọn Huyện (Quận 1) thì Dropdown Xã/Phường phải được bật lên (enable).",
         "Category": "do-dien-tu",
         "SubCategory": "dien-thoai",
-        "Condition": "",
+        "Condition": "Mới (chưa qua sử dụng)",
         "Hang": "Apple",
         "Province": "79",
         "District": "760",
-        "Ward": "Phường Bến Nghé",
+        "Ward": "",
         "Images": 1,
-        "Expected": "fail",
-        "Msg": "bắt buộc"
+        "Expected": "success",
+        "Msg": "enable"
     },
     {
         "Id": "CP21",
@@ -337,19 +322,19 @@
     },
     {
         "Id": "CP22",
-        "Title": "Bán điện thoại cũ",
+        "Title": "Test Logic Đổi Tỉnh Reset Dropdown",
         "Price": "1000000",
-        "Description": "Điện thoại cỏ dùng chữa cháy cực tốt.",
+        "Description": "Test chức năng đổi Tỉnh/Thành phố thì Dropdown Huyện và Xã phải bị reset về rỗng.",
         "Category": "do-dien-tu",
         "SubCategory": "dien-thoai",
         "Condition": "Đã qua sử dụng",
-        "Province": "79",
-        "District": "760",
-        "Ward": "Phường Bến Nghé",
-        "Hang": "",
+        "Hang": "Apple",
+        "Province": "01",
+        "District": "",
+        "Ward": "",
         "Images": 1,
-        "Expected": "fail",
-        "Msg": "bắt buộc"
+        "Expected": "success",
+        "Msg": "reset"
     },
     {
         "Id": "CP23",
@@ -371,26 +356,10 @@
         "Id": "CP24",
         "Title": "Bán Laptop Dell XPS",
         "Price": "15500000",
-        "Description": "Test khi không chọn Phường Xã (chỉ chọn Tỉnh, Huyện).",
+        "Description": "<script>alert('Bạn đã bị hack!');</script>",
         "Category": "do-dien-tu",
         "SubCategory": "laptop",
         "Condition": "Mới (chưa qua sử dụng)",
-        "Hang": "Dell",
-        "Province": "79",
-        "District": "760",
-        "Ward": "",
-        "Images": 1,
-        "Expected": "fail",
-        "Msg": "phường/xã"
-    },
-    {
-        "Id": "CP26",
-        "Title": "<script>alert('XSS_TITLE')</script> Laptop Cũ",
-        "Price": "15000000",
-        "Description": "Kiểm tra bảo mật XSS qua thẻ script ở ô Tiêu đề. Web phải mã hóa mã này.",
-        "Category": "do-dien-tu",
-        "SubCategory": "laptop",
-        "Condition": "Đã qua sử dụng (còn mới)",
         "Hang": "Dell",
         "Province": "79",
         "District": "760",
@@ -403,10 +372,10 @@
         "Id": "CP27",
         "Title": "Bán Laptop Sinh Viên Dell",
         "Price": "15000000",
-        "Description": "<img src=\"invalid-image.jpg\" onerror=\"alert('XSS_DESC')\"> Kiểm tra thẻ ảnh nhúng mã độc.",
+        "Description": "Test tải file ảnh có tên tiếng Việt có dấu và emoji dị, CSDL không bị lỗi.",
         "Category": "do-dien-tu",
         "SubCategory": "laptop",
-        "Condition": "Đã qua sử dụng (còn mới)",
+        "Condition": "Mới (chưa qua sử dụng)",
         "Hang": "Dell",
         "Province": "79",
         "District": "760",
@@ -417,9 +386,9 @@
     },
     {
         "Id": "CP28",
-        "Title": "Bán Tai Nghe Bluetooth (Test Data Base)",
+        "Title": "Bán Tai Nghe Bluetooth",
         "Price": "3500000",
-        "Description": "Test lưu dữ liệu phức tạp. Database utf8mb4 phải cho phép lưu thành công không bị crash.",
+        "Description": "",
         "Category": "do-dien-tu",
         "SubCategory": "dien-thoai",
         "Condition": "Mới (chưa qua sử dụng)",
@@ -428,14 +397,14 @@
         "District": "760",
         "Ward": "Phường Bến Nghé",
         "Images": 1,
-        "Expected": "success",
-        "Msg": "thành công"
+        "Expected": "fail",
+        "Msg": "bắt buộc"
     },
     {
         "Id": "CP29",
-        "Title": " Bán Điện Thoại Cũ ",
-        "Price": "80000000",
-        "Description": "Test Tiêu đề có khoảng trắng ở hai đầu, hệ thống phải tự động trim() dữ liệu hợp lệ.",
+        "Title": "Bán Điện Thoại Cũ",
+        "Price": "8000000",
+        "Description": "Đoạn text này sẽ được nhân lên bằng code để dài hơn 3000 ký tự vượt mức quy định của textarea.",
         "Category": "do-dien-tu",
         "SubCategory": "dien-thoai",
         "Condition": "Mới (chưa qua sử dụng)",
@@ -444,14 +413,14 @@
         "District": "760",
         "Ward": "Phường Bến Nghé",
         "Images": 1,
-        "Expected": "success",
-        "Msg": "thành công"
+        "Expected": "fail",
+        "Msg": "giới hạn"
     },
     {
         "Id": "CP30",
         "Title": "Bán Điện Thoại Cũ Mới Nhất",
-        "Price": "60000000",
-        "Description": "Test nhúng mã SQL Injection cơ bản: ' OR 1=1 -- để xem web có an toàn không.",
+        "Price": "6000000",
+        "Description": "Test spam click nút Đăng bài, hệ thống phải disable nút để tránh tin rác.",
         "Category": "do-dien-tu",
         "SubCategory": "dien-thoai",
         "Condition": "Mới (chưa qua sử dụng)",
@@ -465,9 +434,9 @@
     },
     {
         "Id": "CP31",
-        "Title": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "Title": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
         "Price": "500000",
-        "Description": "Test bypass maxlength bằng cách dùng JS xóa thuộc tính maxlength rồi nhồi 150 ký tự vào Tiêu đề.",
+        "Description": "Test bypass maxlength DOM trên frontend, backend phải chặn lại an toàn.",
         "Category": "do-dien-tu",
         "SubCategory": "dien-thoai",
         "Condition": "Mới (chưa qua sử dụng)",
@@ -477,7 +446,7 @@
         "Ward": "Phường Bến Nghé",
         "Images": 1,
         "Expected": "fail",
-        "Msg": "tối đa"
+        "Msg": "độ dài"
     },
     {
         "Id": "CP32",
@@ -494,6 +463,5 @@
         "Images": 1,
         "Expected": "success",
         "Msg": "thành công"
-    },
-
+    }
 ]

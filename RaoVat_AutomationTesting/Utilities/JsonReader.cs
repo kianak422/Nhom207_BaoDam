@@ -87,8 +87,9 @@ namespace RaoVat_AutomationTesting.Utilities
     public class InteractionData
     {
         public string? Id { get; set; }
-        public string? Feature { get; set; }
-        public string? InputText { get; set; }
+        public string? Type { get; set; }
+        public string? Scenario { get; set; }
+        public string? TestData { get; set; }
         public string? Expected { get; set; }
         public string? Msg { get; set; }
     }

@@ -11,6 +11,7 @@ using System.Linq;
 namespace RaoVat_AutomationTesting.Tests
 {
     [TestFixture]
+    [Category("F4")]
     public class SearchTests
     {
         private IWebDriver? driver;
@@ -18,25 +19,13 @@ namespace RaoVat_AutomationTesting.Tests
         private ExcelHelper? excelHelper;
 
         // --- CHÚ Ý: ĐÃ CẬP NHẬT ĐƯỜNG DẪN FILE EXCEL TẠI ĐÂY ---
-        private string reportPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..", "BaoDam_Report.xlsx");
+        private string reportPath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\..\BaoDam_Report.xlsx"));
         private string sheetName = "TCs - F4"; // Đúng với tên sheet trong ảnh
         private string testerName = "Danh";    // Tên của bạn
 
         [SetUp]
         public void Setup()
         {
-            // Kiểm tra và lấy đường dẫn tuyệt đối chuẩn xác
-            if (!File.Exists(reportPath))
-            {
-                reportPath = Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "..", "..", "BaoDam_Report.xlsx");
-
-                // Thử thêm một vài đường dẫn dự phòng nếu vẫn không thấy
-                if (!File.Exists(reportPath))
-                {
-                    reportPath = @"e:\K29\BDCLPM\RaoVat_AutomationTesting\BaoDam_Report.xlsx";
-                }
-            }
-
             Console.WriteLine("=========================================");
             Console.WriteLine($"[LOG-DEBUG] Thư mục đang chạy code: {AppDomain.CurrentDomain.BaseDirectory}");
             Console.WriteLine($"[LOG-DEBUG] Đang cố gắng ghi vào file Excel tại: {reportPath}");
@@ -44,7 +33,7 @@ namespace RaoVat_AutomationTesting.Tests
             Console.WriteLine("=========================================");
 
             driver = DriverFactory.CreateDriver();
-            verificationErrors = new StringBuilder();
+            verificationErrors = new StringBuilder(); // chỉ để log debug, KHÔNG dùng để fail ở TearDown
             excelHelper = new ExcelHelper(reportPath);
         }
 
@@ -93,22 +82,31 @@ namespace RaoVat_AutomationTesting.Tests
 
             try
             {
-                // Ưu tiên điều hướng theo StartUrl nếu được cung cấp trong JSON (FA01 mới)
-                // Chú ý: Cần thêm public string? StartUrl { get; set; } vào SearchData model nếu bạn có dùng
-                // Nếu code gốc báo lỗi đoạn `data.StartUrl`, bạn có thể comment lại nếu chưa có trong Model.
+                bool hasAnyFilterActionFromData =
+                    !string.IsNullOrEmpty(data.Category)
+                    || !string.IsNullOrEmpty(data.Subcategory)
+                    || !string.IsNullOrEmpty(data.Province)
+                    || !string.IsNullOrEmpty(data.MinPrice)
+                    || !string.IsNullOrEmpty(data.MaxPrice)
+                    || data.HomeBtnIndex.HasValue;
 
-                // MÌNH GIỮ NGUYÊN LOGIC TÌM KIẾM CỦA BẠN DƯỚI ĐÂY:
-
-                // Nếu không có từ khóa mà có các bộ lọc khác (FA tests), 
-                // thì điều hướng thẳng đến trang tìm kiếm để bộ lọc hiển thị
-                if (string.IsNullOrEmpty(data.Keyword) && (data.Keywords == null || data.Keywords.Count == 0) &&
-                    (!string.IsNullOrEmpty(data.Category) || !string.IsNullOrEmpty(data.Province) || !string.IsNullOrEmpty(data.MinPrice) || !string.IsNullOrEmpty(data.MaxPrice)))
+                // FA10/FA11: Home category button -> luôn bắt đầu từ trang chủ
+                if (data.HomeBtnIndex.HasValue && string.IsNullOrEmpty(data.StartUrl))
                 {
+                    driver.Navigate().GoToUrl("http://localhost:5173/");
+                }
+                // Ưu tiên điều hướng theo StartUrl nếu được cung cấp (FA12/FA13/FA14...)
+                else if (!string.IsNullOrEmpty(data.StartUrl))
+                {
+                    driver.Navigate().GoToUrl(data.StartUrl);
+                }
+                else if (string.IsNullOrEmpty(data.Keyword) && (data.Keywords == null || data.Keywords.Count == 0) && hasAnyFilterActionFromData)
+                {
+                    // Nếu không có keyword mà có filter, điều hướng thẳng đến /tim-kiem để bộ lọc hiển thị
                     driver.Navigate().GoToUrl("http://localhost:5173/tim-kiem");
                 }
                 else
                 {
-                    // Ngược lại bắt đầu từ trang chủ
                     driver.Navigate().GoToUrl("http://localhost:5173/");
                 }
 
@@ -138,9 +136,14 @@ namespace RaoVat_AutomationTesting.Tests
                 }
 
                 // Thực hiện tìm kiếm từng từ khóa
-                foreach (var kw in searchKeywords)
+                // Với flow filter-only, tránh bấm Search rỗng (dễ reset state/route) -> chỉ lọc theo UI
+                bool isFilterOnly = hasAnyFilterActionFromData && searchKeywords.All(k => string.IsNullOrWhiteSpace(k));
+                if (!isFilterOnly)
                 {
-                    searchPage.SearchForKeyword(kw);
+                    foreach (var kw in searchKeywords)
+                    {
+                        searchPage.SearchForKeyword(kw);
+                    }
                 }
 
                 bool categoryApplied = false;
@@ -189,13 +192,7 @@ namespace RaoVat_AutomationTesting.Tests
                     string encodedKeyword = Uri.EscapeDataString(searchKeyword);
                     string plusKeyword = searchKeyword.Replace(" ", "+");
 
-                    bool hasAnyFilterAction =
-                        !string.IsNullOrEmpty(data.Category)
-                        || !string.IsNullOrEmpty(data.Subcategory)
-                        || !string.IsNullOrEmpty(data.Province)
-                        || !string.IsNullOrEmpty(data.MinPrice)
-                        || !string.IsNullOrEmpty(data.MaxPrice)
-                        || data.HomeBtnIndex.HasValue;
+                    bool hasAnyFilterAction = hasAnyFilterActionFromData;
 
                     bool hasFilterOnlyFlow = string.IsNullOrEmpty(searchKeyword) && hasAnyFilterAction;
 
@@ -231,8 +228,19 @@ namespace RaoVat_AutomationTesting.Tests
 
                     actualResultToLog = $"Thực hiện thành công. URL hiện tại: {driver.Url}";
                     statusToLog = "Pass";
-                    screenshotPath = TakeScreenshot(driver, $"Pass_{data.Id}", false); // Chụp ảnh khi Pass
+
+                    // ✅ Đã cập nhật để dùng hàm TakeScreenshot nội bộ thay vì ScreenshotHelper.Capture
+                    screenshotPath = TakeScreenshot(driver, $"Pass_{data.Id}", false);
+
                     Console.WriteLine($"ID: {data.Id} - Pass! URL: {driver.Url}");
+                }
+                else
+                {
+                    // ===== LỐI ASSERTION FAIL =====
+                    actualResultToLog = "Kết quả không khớp kỳ vọng";
+                    statusToLog = "Fail";
+                    screenshotPath = TakeScreenshot(driver, $"Fail_{data.Id}", true);
+                    Assert.Fail($"Test assertion fail cho {data.Id}");
                 }
             }
             catch (Exception ex)
@@ -242,8 +250,13 @@ namespace RaoVat_AutomationTesting.Tests
                 // ĐÓNG ALERT NẾU CÓ ĐỂ TRÁNH LỖI KHI CHỤP ẢNH
                 try { driver.SwitchTo().Alert().Accept(); } catch { }
 
-                screenshotPath = TakeScreenshot(driver, $"Fail_{data.Id}", true); // Bật cờ true để highlight đỏ lỗi
+                // Chụp ảnh lỗi nếu chưa có
+                if (string.IsNullOrEmpty(screenshotPath))
+                {
+                    screenshotPath = TakeScreenshot(driver, $"Fail_{data.Id}", true);
+                }
 
+                // Xử lý thông báo lỗi như CreatePostTests
                 string errorMsg = ex.Message;
                 if (ex is WebDriverTimeoutException)
                 {
@@ -260,7 +273,7 @@ namespace RaoVat_AutomationTesting.Tests
                 }
                 else
                 {
-                    actualResultToLog = $"[System Error] {ex.GetType().Name}: {errorMsg}";
+                    actualResultToLog = $"[System Error] {ex.GetType().Name}: {errorMsg.Split('\n')[0]}";
                 }
 
                 verificationErrors?.Append($"[{data.Id}] {actualResultToLog}\n");
@@ -272,15 +285,30 @@ namespace RaoVat_AutomationTesting.Tests
             }
             finally
             {
+                // ===== FIX GICI EXCEL GIỐNG CREATEPOST =====
                 Console.WriteLine($"[LOG-DEBUG] Tiến hành ghi ID [{data.Id}] vào sheet [{sheetName}]...");
                 try
                 {
-                    excelHelper?.WriteTestResultById(sheetName, data.Id ?? "", actualResultToLog, statusToLog, testerName, screenshotPath);
-                    Console.WriteLine($"[LOG-DEBUG] ---> GHI THÀNH CÔNG VÀO EXCEL!");
+                    // ✅ Dùng excelHelper trực tiếp (không nullable)
+                    if (excelHelper != null)
+                    {
+                        excelHelper.WriteTestResultById(sheetName, data.Id ?? "", actualResultToLog, statusToLog, testerName, screenshotPath);
+                        Console.WriteLine($"[LOG-DEBUG] ---> GHI THÀNH CÔNG VÀO EXCEL!");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"[CẢNH BÁO] ExcelHelper là null, không thể ghi kết quả.");
+                    }
                 }
                 catch (IOException ioEx)
                 {
-                    Console.WriteLine($"\n[CẢNH BÁO LỖI GHI EXCEL CHO ID {data.Id}]: {ioEx.Message}");
+                    Console.WriteLine($"\n[LỖI GHI EXCEL CHO ID {data.Id}]: {ioEx.Message}");
+                    Console.WriteLine($"[CHI TIẾT]: {ioEx.StackTrace}");
+                }
+                catch (Exception exEx)
+                {
+                    Console.WriteLine($"\n[LỖI CỰC MẠNH KHI GHI EXCEL]: {exEx.Message}");
+                    Console.WriteLine($"[CHI TIẾT LỖI]: {exEx.StackTrace}\n");
                 }
             }
         }
@@ -297,13 +325,12 @@ namespace RaoVat_AutomationTesting.Tests
             // Chống spam & khóa file như bên CreatePost
             System.Threading.Thread.Sleep(3000);
 
-            if (verificationErrors != null && verificationErrors.Length > 0)
-            {
-                Assert.Fail(verificationErrors.ToString());
-            }
+            // Không fail ở TearDown nữa (fail phải nằm ở đúng test case).
         }
 
-        // ĐÃ NÂNG CẤP HÀM CHỤP ẢNH MÀN HÌNH TỪ BÊN CREATE POST
+        // =================================================================
+        // HÀM CHỤP ẢNH MỚI: ĐÃ THÊM JAVASCRIPT BÔI ĐỎ LỖI TỪ CREATEPOST
+        // =================================================================
         private string TakeScreenshot(IWebDriver driver, string testName, bool isError = false)
         {
             try

@@ -4,14 +4,16 @@
         "Type": "Chat",
         "Scenario": "Gửi tin nhắn rỗng",
         "TestData": "",
-        "Expected": "Nút Gửi bị mờ (disabled) hoặc không thể click"
+        "Expected": "Nút Gửi bị mờ (disabled) hoặc không thể click",
+        "Msg": "mờ"
     },
     {
         "Id": "C02",
         "Type": "Chat",
         "Scenario": "Gửi tin nhắn khoảng trắng",
         "TestData": "   ",
-        "Expected": "Hệ thống tự động trim() và chặn tin nhắn rỗng"
+        "Expected": "Hệ thống tự động trim() và chặn tin nhắn rỗng",
+        "Msg": "trim"
     },
     {
         "Id": "C03",
@@ -186,6 +188,6 @@
         "Scenario": "Unblock user",
         "TestData": "Unblock",
         "Expected": "Bỏ chặn thành công, có thể nhắn tin lại"
-    },
+    }
 ]
     

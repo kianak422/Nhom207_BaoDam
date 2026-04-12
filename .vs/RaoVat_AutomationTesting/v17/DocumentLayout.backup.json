@@ -7,36 +7,16 @@
       "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\tests\\interactiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\tests\\admintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\tests\\admintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\tests\\registertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\tests\\registertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\tests\\integratetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\tests\\integratetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\f5_2_comment.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\f5_2_comment.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\f5_1_chat.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\f5_1_chat.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\createpost_f3_1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\createpost_f3_1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\editpost_f3_2.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\editpost_f3_2.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\logindata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\logindata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\integratetcs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\integratetcs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\f7_admin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\f7_admin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\tests\\createposttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,55 +27,107 @@
       "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\pages\\createpostpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\pages\\editpostpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\pages\\editpostpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\f3.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\f3.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\pages\\integratepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\pages\\integratepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\tests\\editposttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\tests\\editposttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\tests\\admintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\tests\\admintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\registerdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\registerdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GIGABYTE\\.nuget\\packages\\selenium.webdriver.chromedriver\\146.0.7680.15300\\build\\Selenium.WebDriver.ChromeDriver.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\utilities\\excelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\utilities\\excelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\tests\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\tests\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\pages\\interactionpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\pages\\interactionpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\f5_2_comment.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\f5_2_comment.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\f5_1_chat.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\f5_1_chat.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\editpost_f3_2.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\editpost_f3_2.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\utilities\\jsonreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\utilities\\jsonreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\tests\\editposttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\tests\\editposttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\integratetcs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\integratetcs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\pages\\integratepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\pages\\integratepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\tests\\upgradeviptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\tests\\upgradeviptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\tests\\searchtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\tests\\searchtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\tcs-f4.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\tcs-f4.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\upgradevipdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\upgradevipdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\pages\\editpostpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\pages\\editpostpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\pages\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\pages\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\pages\\interactionpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\pages\\interactionpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\createpost_f3_1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\createpost_f3_1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\tests\\registertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\tests\\registertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\logindata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\logindata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\registerdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\registerdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\testdata\\f7_admin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\testdata\\f7_admin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\pages\\registerpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\pages\\registerpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\pages\\searchpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\pages\\searchpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GIGABYTE\\.nuget\\packages\\selenium.webdriver.chromedriver\\146.0.7680.15300\\build\\Selenium.WebDriver.ChromeDriver.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\utilities\\screenshothelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\utilities\\screenshothelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\utilities\\excelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\utilities\\excelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\raovat_automationtesting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -104,10 +136,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\utilities\\driverfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\utilities\\driverfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|d:\\raovat_automationtesting\\raovat_automationtesting\\pages\\registerpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE34C4A1-C4DC-4BB4-A064-069240E92806}|RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj|solutionrelative:raovat_automationtesting\\pages\\registerpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -121,13 +149,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "CreatePostPage.cs",
               "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\CreatePostPage.cs",
               "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Pages\\CreatePostPage.cs",
               "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\CreatePostPage.cs",
               "RelativeToolTip": "RaoVat_AutomationTesting\\Pages\\CreatePostPage.cs",
-              "ViewState": "AgIAAM0AAAAAAAAAAAAqwNoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEQBAAAAAAAAAAAcwFEBAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T06:39:14.679Z",
               "IsPinned": true,
@@ -139,218 +167,38 @@
               "Title": "InteractionTests.cs",
               "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\InteractionTests.cs",
               "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Tests\\InteractionTests.cs",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\InteractionTests.cs",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\Tests\\InteractionTests.cs",
-              "ViewState": "AgIAAGUBAAAAAAAAAAAqwHwBAAABAAAAAAAAAA==",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\InteractionTests.cs*",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\Tests\\InteractionTests.cs*",
+              "ViewState": "AgIAAEgBAAAAAAAAAAAIwIsBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T09:32:25.497Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "F5_2_Comment.json",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\F5_2_Comment.json",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\F5_2_Comment.json",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\F5_2_Comment.json",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\F5_2_Comment.json",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-09T17:28:14.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "F5_1_Chat.json",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\F5_1_Chat.json",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\F5_1_Chat.json",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\F5_1_Chat.json",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\F5_1_Chat.json",
-              "ViewState": "AgIAALEAAAAAAAAAAAAAALwAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-09T17:27:19.388Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreatePostTests.cs",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\CreatePostTests.cs",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Tests\\CreatePostTests.cs",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\CreatePostTests.cs",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\Tests\\CreatePostTests.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAmwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T06:43:26.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EditPost_F3_2.json",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\EditPost_F3_2.json",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\EditPost_F3_2.json",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\EditPost_F3_2.json",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\EditPost_F3_2.json",
-              "ViewState": "AgIAAO0AAAAAAAAAAAAmwP0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-05T12:34:27.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreatePost_F3_1.json",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\CreatePost_F3_1.json",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\CreatePost_F3_1.json",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\CreatePost_F3_1.json",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\CreatePost_F3_1.json",
-              "ViewState": "AgIAAOIBAAAAAAAAAAAtwPEBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-23T06:53:27.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "F7_Admin.json",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\F7_Admin.json",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\F7_Admin.json",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\F7_Admin.json",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\F7_Admin.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-08T04:02:07.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IntegrateTCs.json",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\IntegrateTCs.json",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\IntegrateTCs.json",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\IntegrateTCs.json",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\IntegrateTCs.json",
-              "ViewState": "AgIAABsAAAAAAAAAAAAkwCgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-08T04:10:04.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EditPostPage.cs",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\EditPostPage.cs",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Pages\\EditPostPage.cs",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\EditPostPage.cs",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\Pages\\EditPostPage.cs",
-              "ViewState": "AgIAAM0AAAAAAAAAAAAqwNYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T12:42:36.081Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IntegrateTests.cs",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\IntegrateTests.cs",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Tests\\IntegrateTests.cs",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\IntegrateTests.cs",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\Tests\\IntegrateTests.cs",
-              "ViewState": "AgIAAGoBAAAAAAAAAAAqwH0BAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T04:15:18.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EditPostTests.cs",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\EditPostTests.cs",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Tests\\EditPostTests.cs",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\EditPostTests.cs",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\Tests\\EditPostTests.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAA8wFMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T12:37:03.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IntegratePage.cs",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\IntegratePage.cs",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Pages\\IntegratePage.cs",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\IntegratePage.cs",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\Pages\\IntegratePage.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAADwv3kAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T04:30:18.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "loginData.json",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\loginData.json",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\loginData.json",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\loginData.json",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\loginData.json",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAmwHkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-21T13:34:50.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "AdminTests.cs",
               "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\AdminTests.cs",
               "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Tests\\AdminTests.cs",
               "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\AdminTests.cs",
               "RelativeToolTip": "RaoVat_AutomationTesting\\Tests\\AdminTests.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAUwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPkBAAAAAAAAAAAcwAsCAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-07T16:13:58.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "registerData.json",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\registerData.json",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\registerData.json",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\registerData.json",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\registerData.json",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-22T05:12:10.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Selenium.WebDriver.ChromeDriver.targets",
-              "DocumentMoniker": "C:\\Users\\GIGABYTE\\.nuget\\packages\\selenium.webdriver.chromedriver\\146.0.7680.15300\\build\\Selenium.WebDriver.ChromeDriver.targets",
-              "ToolTip": "C:\\Users\\GIGABYTE\\.nuget\\packages\\selenium.webdriver.chromedriver\\146.0.7680.15300\\build\\Selenium.WebDriver.ChromeDriver.targets",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAwGAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-04-04T09:52:13.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 8,
               "Title": "LoginTests.cs",
               "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\LoginTests.cs",
               "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Tests\\LoginTests.cs",
@@ -363,13 +211,203 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExcelHelper.cs",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Utilities\\ExcelHelper.cs",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Utilities\\ExcelHelper.cs",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Utilities\\ExcelHelper.cs",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\Utilities\\ExcelHelper.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T04:47:18.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "F3.md",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\F3.md",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\F3.md",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\F3.md",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\F3.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4CAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-12T03:39:39.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreatePostTests.cs",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\CreatePostTests.cs",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Tests\\CreatePostTests.cs",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\CreatePostTests.cs",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\Tests\\CreatePostTests.cs",
+              "ViewState": "AgIAAAoBAAAAAAAAAAAcwBABAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T06:43:26.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IntegrateTests.cs",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\IntegrateTests.cs",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Tests\\IntegrateTests.cs",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\IntegrateTests.cs",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\Tests\\IntegrateTests.cs",
+              "ViewState": "AgIAAGUBAAAAAAAAAADwv30BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T04:15:18.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterTests.cs",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\RegisterTests.cs",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Tests\\RegisterTests.cs",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\RegisterTests.cs",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\Tests\\RegisterTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T05:18:35.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InteractionPage.cs",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\InteractionPage.cs",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Pages\\InteractionPage.cs",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\InteractionPage.cs",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\Pages\\InteractionPage.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwHUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:32:19.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "JsonReader.cs",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Utilities\\JsonReader.cs",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Utilities\\JsonReader.cs",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Utilities\\JsonReader.cs",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\Utilities\\JsonReader.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwFwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T11:32:11.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditPost_F3_2.json",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\EditPost_F3_2.json",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\EditPost_F3_2.json",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\EditPost_F3_2.json",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\EditPost_F3_2.json",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAcwIoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-05T12:34:27.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "F5_1_Chat.json",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\F5_1_Chat.json",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\F5_1_Chat.json",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\F5_1_Chat.json",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\F5_1_Chat.json",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAwwMAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-09T17:27:19.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "F5_2_Comment.json",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\F5_2_Comment.json",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\F5_2_Comment.json",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\F5_2_Comment.json",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\F5_2_Comment.json",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwE4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-09T17:28:14.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\LoginPage.cs",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Pages\\LoginPage.cs",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\LoginPage.cs",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\Pages\\LoginPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T10:21:21.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditPostTests.cs",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\EditPostTests.cs",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Tests\\EditPostTests.cs",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\EditPostTests.cs",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\Tests\\EditPostTests.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAkwKQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T12:37:03.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IntegrateTCs.json",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\IntegrateTCs.json",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\IntegrateTCs.json",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\IntegrateTCs.json",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\IntegrateTCs.json",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-08T04:10:04.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IntegratePage.cs",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\IntegratePage.cs",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Pages\\IntegratePage.cs",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\IntegratePage.cs",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\Pages\\IntegratePage.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAADwv3kAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T04:30:18.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
               "Title": "UpgradeVipTests.cs",
               "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\UpgradeVipTests.cs",
               "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Tests\\UpgradeVipTests.cs",
               "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\UpgradeVipTests.cs",
               "RelativeToolTip": "RaoVat_AutomationTesting\\Tests\\UpgradeVipTests.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACICAAAAAAAAAAAkwD0CAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T09:24:11.137Z",
               "EditorCaption": ""
@@ -377,6 +415,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "SearchTests.cs",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\SearchTests.cs",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Tests\\SearchTests.cs",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\SearchTests.cs",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\Tests\\SearchTests.cs",
+              "ViewState": "AgIAAHEBAAAAAAAAAAAkwIkBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T06:11:45.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TCs-F4.json",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\TCs-F4.json",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\TCs-F4.json",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\TCs-F4.json",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\TCs-F4.json",
+              "ViewState": "AgIAANwAAAAAAAAAAAAcwPcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-11T17:47:15.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "upgradeVipData.json",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\upgradeVipData.json",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\upgradeVipData.json",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\upgradeVipData.json",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\upgradeVipData.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-12T10:15:12.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EditPostPage.cs",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\EditPostPage.cs",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Pages\\EditPostPage.cs",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\EditPostPage.cs",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\Pages\\EditPostPage.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAYwL4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T12:42:36.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "AdminPage.cs",
               "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\AdminPage.cs",
               "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Pages\\AdminPage.cs",
@@ -389,33 +479,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "InteractionPage.cs",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\InteractionPage.cs",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Pages\\InteractionPage.cs",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\InteractionPage.cs",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\Pages\\InteractionPage.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T09:32:19.665Z",
+              "DocumentIndex": 24,
+              "Title": "CreatePost_F3_1.json",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\CreatePost_F3_1.json",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\CreatePost_F3_1.json",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\CreatePost_F3_1.json",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\CreatePost_F3_1.json",
+              "ViewState": "AgIAADkBAAAAAAAAAAAiwD8BAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-23T06:53:27.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "RegisterTests.cs",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\RegisterTests.cs",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Tests\\RegisterTests.cs",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Tests\\RegisterTests.cs",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\Tests\\RegisterTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T05:18:35.61Z",
+              "DocumentIndex": 25,
+              "Title": "loginData.json",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\loginData.json",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\loginData.json",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\loginData.json",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\loginData.json",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAmwHkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-21T13:34:50.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
+              "Title": "registerData.json",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\registerData.json",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\registerData.json",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\registerData.json",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\registerData.json",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-22T05:12:10.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "F7_Admin.json",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\F7_Admin.json",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\TestData\\F7_Admin.json",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\TestData\\F7_Admin.json",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\TestData\\F7_Admin.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-08T04:02:07.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RegisterPage.cs",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\RegisterPage.cs",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Pages\\RegisterPage.cs",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\RegisterPage.cs",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\Pages\\RegisterPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T05:18:13.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SearchPage.cs",
+              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\SearchPage.cs",
+              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Pages\\SearchPage.cs",
+              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\SearchPage.cs",
+              "RelativeToolTip": "RaoVat_AutomationTesting\\Pages\\SearchPage.cs",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T06:12:40.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Selenium.WebDriver.ChromeDriver.targets",
+              "DocumentMoniker": "C:\\Users\\GIGABYTE\\.nuget\\packages\\selenium.webdriver.chromedriver\\146.0.7680.15300\\build\\Selenium.WebDriver.ChromeDriver.targets",
+              "ToolTip": "C:\\Users\\GIGABYTE\\.nuget\\packages\\selenium.webdriver.chromedriver\\146.0.7680.15300\\build\\Selenium.WebDriver.ChromeDriver.targets",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAwGAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-04T09:52:13.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "ScreenshotHelper.cs",
               "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Utilities\\ScreenshotHelper.cs",
               "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Utilities\\ScreenshotHelper.cs",
@@ -423,24 +575,11 @@
               "RelativeToolTip": "RaoVat_AutomationTesting\\Utilities\\ScreenshotHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T12:57:55.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-03T12:57:55.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ExcelHelper.cs",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Utilities\\ExcelHelper.cs",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Utilities\\ExcelHelper.cs",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Utilities\\ExcelHelper.cs",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\Utilities\\ExcelHelper.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAowFgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T04:47:18.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "RaoVat_AutomationTesting.csproj",
               "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj",
               "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj",
@@ -448,12 +587,11 @@
               "RelativeToolTip": "RaoVat_AutomationTesting\\RaoVat_AutomationTesting.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-21T13:04:39.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T13:04:39.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "DriverFactory.cs",
               "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Utilities\\DriverFactory.cs",
               "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Utilities\\DriverFactory.cs",
@@ -462,22 +600,6 @@
               "ViewState": "AgIAABMAAAAAAAAAAIBJwAsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T13:50:41.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "RegisterPage.cs",
-              "DocumentMoniker": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\RegisterPage.cs",
-              "RelativeDocumentMoniker": "RaoVat_AutomationTesting\\Pages\\RegisterPage.cs",
-              "ToolTip": "D:\\RaoVat_AutomationTesting\\RaoVat_AutomationTesting\\Pages\\RegisterPage.cs",
-              "RelativeToolTip": "RaoVat_AutomationTesting\\Pages\\RegisterPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T05:18:13.764Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

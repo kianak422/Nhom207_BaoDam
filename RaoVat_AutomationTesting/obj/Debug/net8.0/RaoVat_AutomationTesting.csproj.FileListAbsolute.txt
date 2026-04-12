@@ -122,6 +122,7 @@ D:\RaoVat_AutomationTesting\RaoVat_AutomationTesting\obj\Debug\net8.0\RaoVat_Aut
 D:\RaoVat_AutomationTesting\RaoVat_AutomationTesting\obj\Debug\net8.0\RaoVat_AutomationTesting.AssemblyInfoInputs.cache
 D:\RaoVat_AutomationTesting\RaoVat_AutomationTesting\obj\Debug\net8.0\RaoVat_AutomationTesting.AssemblyInfo.cs
 D:\RaoVat_AutomationTesting\RaoVat_AutomationTesting\obj\Debug\net8.0\RaoVat_AutomationTesting.csproj.CoreCompileInputs.cache
+D:\RaoVat_AutomationTesting\RaoVat_AutomationTesting\obj\Debug\net8.0\RaoVat_AutomationTesting.sourcelink.json
 D:\RaoVat_AutomationTesting\RaoVat_AutomationTesting\obj\Debug\net8.0\RaoVat_A.D90B15C4.Up2Date
 D:\RaoVat_AutomationTesting\RaoVat_AutomationTesting\obj\Debug\net8.0\RaoVat_AutomationTesting.dll
 D:\RaoVat_AutomationTesting\RaoVat_AutomationTesting\obj\Debug\net8.0\refint\RaoVat_AutomationTesting.dll

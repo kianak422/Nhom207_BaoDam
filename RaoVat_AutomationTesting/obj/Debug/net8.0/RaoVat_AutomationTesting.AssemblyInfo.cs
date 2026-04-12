@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RaoVat_AutomationTesting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be312d68b5828def69e928c9bbab9ecd241e3521")]
 [assembly: System.Reflection.AssemblyProductAttribute("RaoVat_AutomationTesting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RaoVat_AutomationTesting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
