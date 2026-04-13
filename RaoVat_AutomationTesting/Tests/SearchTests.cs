@@ -21,7 +21,7 @@ namespace RaoVat_AutomationTesting.Tests
         // --- CHÚ Ý: ĐÃ CẬP NHẬT ĐƯỜNG DẪN FILE EXCEL TẠI ĐÂY ---
         private string reportPath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\..\BaoDam_Report.xlsx"));
         private string sheetName = "TCs - F4"; // Đúng với tên sheet trong ảnh
-        private string testerName = "Danh";    // Tên của bạn
+        private string testerName = "Huy";    // Tên của bạn
 
         [SetUp]
         public void Setup()
